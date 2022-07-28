@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/codingschool/).join
+#regular expression must match School
+puts ARGV[0].scan(/School/).join
